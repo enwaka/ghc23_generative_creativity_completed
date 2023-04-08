@@ -1,0 +1,6 @@
+sounddevice==0.4.6
+soundfile==0.12.1
+Flask~=2.2.2
+python-dotenv==1.0.0
+openai==0.27.4
+openai-whisper @ git+https://github.com/openai/whisper.git@7858aa9c08d98f75575035ecd6481f462d66ca27

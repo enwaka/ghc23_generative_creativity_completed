@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href = "{{url_for('static', filename='css/main.css')}}">
+    </head>
+    <body>
+        <form action="/record" method="post">
+            <input type="submit" value="Speak" style="height:300px; width:100px; color:brown">
+            <br><br>
+            {% if generated_lyrics %}
+            <h4 font-color="brown">{{ generated_lyrics }}</h4>
+            {% endif %}
+        </form>
+    </body>
+</html>
